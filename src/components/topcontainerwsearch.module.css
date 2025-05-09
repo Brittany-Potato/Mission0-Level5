@@ -45,4 +45,15 @@ background-size: 100vw;
     background-repeat: repeat;
   }
 
+  .middlec {
+    font-size: 30px;
+  }
+
+  #search {
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    right: 60px;
+    bottom: 135px;
+  }
 }
