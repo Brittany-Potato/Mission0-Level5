@@ -1,47 +1,46 @@
 .card1 {
-    background-color: #1da11f;
-    margin-top: 35%;
-    width: 15.55%;
+  background-color: #1da11f;
+  margin-top: 35%;
+  width: 17.3%;
 }
 
 .card2 {
-    background-color: #1da11f;
-    margin-top: 35%;
-    width: 15.55%;
+  background-color: #1da11f;
+  margin-top: 35%;
+  width: 17.3%;
 }
 
 .card3 {
-    background-color: #1da11f;
-    margin-top: 35%;
-    width: 15.55%;
+  background-color: #1da11f;
+  margin-top: 35%;
+  width: 17.3%;
 }
 
 .parentdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .image {
-    height: 320px;
+  height: 320px;
 }
 
 @media only screen and (max-width: 600px) {
-    .card1 .card2 .card3 {
-        margin: 20%;
-    }
-    .parentdiv {
-        display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100%;
-      width: 900px;
-      font-size: smaller;
-    }
-   
-    .image {
-      width: 100%;
-      height: auto; /* maintain aspect ratio */
-    }
+  .card1 .card2 .card3 {
+    width: 90%;
   }
+  .parentdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 900px;
+    font-size: smaller;
+  }
+
+  .image {
+    width: 100%;
+    height: auto; /* maintain aspect ratio */
+  }
+}

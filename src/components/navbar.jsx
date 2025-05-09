@@ -6,6 +6,13 @@ export default function navbar() {
   return (
     <div>
       <div className={styles.container}>
+              <img
+        src="../../images/media_menu.png"
+        alt="media_menu"
+        height="50px"
+        width="50px"
+        className={styles.hamburger}
+      />
         <div className={styles.tatodiv}>
           <img
             src="../../images/Marketing Association New Zealand.png"
@@ -23,6 +30,7 @@ export default function navbar() {
           <button className={styles.login}>Login</button>
         </div>
       </div>
+
     </div>
   );
 }
