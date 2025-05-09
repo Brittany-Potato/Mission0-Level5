@@ -1,26 +1,25 @@
 .card1 {
     background-color: #1da11f;
-    margin-top: 40%;
-    width: 25%;
+    margin-top: 35%;
+    width: 15.55%;
 }
 
 .card2 {
     background-color: #1da11f;
-    width: 25%;
-    margin-top: 40%;
+    margin-top: 35%;
+    width: 15.55%;
 }
 
 .card3 {
     background-color: #1da11f;
-    width: 25%;
-    margin-top: 40%;
-    float: right;
+    margin-top: 35%;
+    width: 15.55%;
 }
 
 .parentdiv {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
