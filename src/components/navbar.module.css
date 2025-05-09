@@ -1,0 +1,66 @@
+.container {
+    position: absolute;
+    background-color: 	#be80ff;
+    width: 100vw;
+    display: flex;
+    padding: 15px;
+    top: 0%;
+    left: 0%;
+}
+
+.tato {
+    display: flex;
+    border: 2px solid #1da11f;
+    border-radius: 100rem;
+    margin: 15px;
+}
+
+.tatodiv {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: #be80ff;
+    width: 1000px;
+    font-size: large;
+
+}
+
+.menu {
+    display: flex;
+    background-color: #ab5dee;
+    align-items: right;
+    padding: 30px;
+    justify-content: space-between;
+    margin-left: 40rem;
+    margin-bottom: 0% ;
+}
+
+.menubttn {
+    margin: 5px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #1da11f;
+}
+
+.login {
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #1da11f;
+    border: 2px solid #1ddd33;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: smaller;
+    }
+    .tatodiv {
+        
+    }
+}

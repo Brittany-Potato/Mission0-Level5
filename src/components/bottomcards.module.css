@@ -1,0 +1,48 @@
+.card1 {
+    background-color: #1da11f;
+    margin-top: 40%;
+    width: 25%;
+}
+
+.card2 {
+    background-color: #1da11f;
+    width: 25%;
+    margin-top: 40%;
+}
+
+.card3 {
+    background-color: #1da11f;
+    width: 25%;
+    margin-top: 40%;
+    float: right;
+}
+
+.parentdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.image {
+    height: 320px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card1 .card2 .card3 {
+        margin: 20%;
+    }
+    .parentdiv {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      width: 900px;
+      font-size: smaller;
+    }
+   
+    .image {
+      width: 100%;
+      height: auto; /* maintain aspect ratio */
+    }
+  }

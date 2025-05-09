@@ -1,0 +1,41 @@
+.mainc {
+  position: absolute;
+  display: flex;
+  background-image: url("../../images/Untitled design (6).png");
+  justify-content: center;
+  width: 100vw;
+  height: 5vw;
+  top: 14.8%;
+  left: 0%;
+  padding: 150px;
+  background-repeat: no-repeat;
+background-size: 100vw;
+}
+
+.middlec {
+    display: flex;
+    justify-content: left;
+    margin-right: 20%;
+    color: black;
+    font-size: large;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #be80ff;
+  box-sizing: border-box;
+  width: 25vw;
+  margin: 10px;
+  height: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainc {
+    height: auto;
+    display: flex;
+    top: 24.5%;
+    flex-direction: column;
+  }
+
+}
