@@ -20,7 +20,7 @@ export default function bottomcards() {
       <div className={styles.card3}>
         <img src="../../images/about.png" alt=""  className={styles.image}/>
         <div>
-          <h4>About us</h4>
+          <h4>About us</h4> 
         </div>
       </div>
     </div>
