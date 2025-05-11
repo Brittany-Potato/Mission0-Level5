@@ -31,6 +31,8 @@
   .card1, .card2, .card3 {
     width: 60%;
     margin-top: 70px;
+    font-size: 30px;
+    justify-content: center;
   }
 
   .card1 {

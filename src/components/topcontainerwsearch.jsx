@@ -8,6 +8,7 @@ export default function topcontainerwsearch() {
         <div className={styles.middlec}>
         <h3>What are you looking for?</h3>
         <input type="search" name="Search" id={styles.search} />
+        <button className={styles.searchb}>Search</button>
         </div>
     </div>
   )
