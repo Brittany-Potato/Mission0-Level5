@@ -54,19 +54,21 @@ background-size: 100vw;
 
   .middlec {
     font-size: 30px;
+    margin-bottom: 10%;
+    margin-left: 8%;
   }
 
   #search {
     height: 50px;
     width: 350px;
     position: absolute;
-    right: 60px;
-    bottom: 130px;
+    right: 550px;
+    bottom: 80px;
   }
 
   .searchb {
     position: absolute;
-    bottom: 70px;
+    bottom: 90px;
     left: 50%;
   }
 }
